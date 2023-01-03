@@ -11,7 +11,7 @@
 - Extensível com plugins
 - Instalação: https://jquery.com/download/
 
-##Seletores no jQuery
+## Seletores no jQuery
 
 O jQuery para fazer sua biblioteca funcionar, exerce uma função parecida ao CSS, que utiliza de elementos ou atributos no HTML para adicionar suas funções.
 
@@ -49,7 +49,7 @@ Como visto nos exemplos acima, podemos ocasionar mudanças onde não desejamos. 
 
 Para isso, podemos evitar os conflitos com a separação correta dos seletores. Como dito anteriormente, os seletores do jQuery são bem similares ao do CSS, podemos ver abaixo:
 
-###Seletores Simples
+### Seletores Simples
 Seletores que podemos alterar apenas um específico elemento ou atributo: 
 
 ```
@@ -62,7 +62,7 @@ jQuery (function($){
 ```
 
 
-###Seletores compostos 
+### Seletores compostos 
 Aqui podemos fazer alteração em mais de um elemento ou atributo, dependendo também da hierarquia que você deseja alterar:
 
 ```
@@ -111,7 +111,7 @@ Código fonte (html e jQuery), também disponível no material do exercício:
 </script>
 </html>
 ```
-###Código (Apenas jQuery):
+### Código (Apenas jQuery):
 
 ```
     $(document).ready(function() {
